@@ -1,0 +1,74 @@
+header {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+	justify-content: center;
+	text-align: center;
+}
+
+header ul {
+	display: flex;
+	flex-direction: column;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.col img {
+	align-self: center;
+}
+
+
+@media (min-width: 900px) {
+
+	header ul,
+	#myPage {
+		padding-top: 30px;
+	}	
+
+	header {
+		flex-direction: row;
+		justify-content: flex-start;
+	}
+
+	#myPage {
+		margin-right: auto;
+	}	
+
+	header ul {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	header a {
+		padding-left: 10px;
+		padding-right: 10px;
+		border-radius: 5px;
+	}
+
+	#main-container {
+		max-width: 1600px;
+		width: 80%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	.col {
+		flex-basis: 45%;
+	}
+
+	.bases {
+		flex-basis: 90%;
+		margin-bottom: 50px;
+	}
+}
+
+
+
+
+
+

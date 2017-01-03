@@ -1,0 +1,74 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eee;
+}
+
+header {
+	background-image: url('../img/header-back.jpg');
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 40px;
+}
+
+#myPage {
+	margin-bottom: 5%;
+}
+
+header a {
+	display:block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-decoration: none;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1.5em;
+	color: white;
+	transition: background-color .2s ease-in, 
+		    color .2s ease-in,
+		    padding-bottom .2s ease-in;
+}
+
+header a:hover {
+	background-color: rgba(255, 255, 255, .3);
+	color: rgba(0, 0, 0, .8);
+	padding-bottom: 25px;
+}
+
+header ul,
+header li {
+	margin: 0;
+	padding: 0;
+}
+
+#main-container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.col {
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #888;
+}
+
+.col h1 {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 2em;
+}
+
+.col img {
+	border-radius: 20px;
+	margin: 20px 0;
+	width: 100%; 
+}
+
+.col p {
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 1em;
+	text-align: justify;
+	text-shadow: 2px 2px 2px #ddd;	
+	padding-bottom: 10px;
+}
+
